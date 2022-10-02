@@ -23,4 +23,4 @@ def test_longest():
 
 
 def test_dist():
-    assert dist((1, 2), (3, 4)) == sqrt(8)
+    assert dist((1, 2), (3, 4)) == 2.83

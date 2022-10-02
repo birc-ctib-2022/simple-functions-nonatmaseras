@@ -19,7 +19,7 @@ def prod2(b):
     24
     """
     c = 3
-    return prod(ab.c)
+    return prod(a,b,c)
 
 
 def longest(x, y):
@@ -27,9 +27,12 @@ def longest(x, y):
     Returning the longest of two lists.
 
     >>> longest([1, 2, 3], [4, 5])
-    'TEST ME'
+    [1,2,3]
     """
-    ...
+    if len(x) > len(y):
+        return x
+    else:
+        return y
 
 
 def dist(p1, p2):
@@ -37,8 +40,9 @@ def dist(p1, p2):
     Compute the distance between p1 and p2.
 
     >>> dist((1,2), (3,4))
-    sqrt(8)
+    2.83
     """
     x1, y1 = p1
     x2, y2 = p2
-    return sqrt((x1-x2)**2 + (y1-y2)**2)
+    return round(sqrt((x1-x2)**2 + (y1-y2)**2),2)
+
