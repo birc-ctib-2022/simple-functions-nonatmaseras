@@ -11,7 +11,7 @@ from funcs import (
 
 
 def test_prod():
-    assert prod(1, 2, 3) == 3
+    assert prod(1, 2, 3) == 6
 
 
 def test_prod2():
