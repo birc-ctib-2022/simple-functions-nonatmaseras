@@ -6,7 +6,7 @@ def prod(a, b, c):
     Compute the product of three numbers.
 
     >>> prod(1, 2, 3)
-    3
+    6
     """
     return a*b*c
 
@@ -27,7 +27,7 @@ def longest(x, y):
     Returning the longest of two lists.
 
     >>> longest([1, 2, 3], [4, 5])
-    [1,2,3]
+    [1, 2, 3]
     """
     if len(x) > len(y):
         return x

@@ -19,7 +19,7 @@ def test_prod2():
 
 
 def test_longest():
-    assert longest([1, 2, 3], [4, 5]) == [1,2,3]
+    assert longest([1, 2, 3], [4, 5]) == [1, 2, 3]
 
 
 def test_dist():
